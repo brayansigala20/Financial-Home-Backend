@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.get('/api/hello', (_req, res) => {
   res.json({
-    message: 'Hola desde el backend'
+    message: 'Hola desde el backend desde el servidor prueba 2'
   })
 })
 
