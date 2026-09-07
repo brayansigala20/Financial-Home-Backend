@@ -6,10 +6,7 @@ const PORT = 3000
 
 app.use(express.json())
 
-app.get('/api/hello', (_req, res) => {
-  res.json({
-    message: 'Hola desde el backend desde el servidor prueba 2'
-  })
+app.get('/api/', (_req, res) => {
 })
 
 app.listen(PORT, '0.0.0.0', () => {
